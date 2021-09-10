@@ -1,405 +1,208 @@
-<!doctype html><html lang="en"><head>  
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Sabyasachi</title>		<link rel="icon" href="favicon.png" type="image/gif" sizes="16x16">
-<link href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/bootstrap.min.css" >
-<link rel="stylesheet" href="css/style.css" >
-<style type="text/css">
-  .info_title {
-    position: relative;
-    max-width: 1920px;
-    margin: auto;
-  }
-  .main_title {
-    bottom: 5rem;
-  }
-  .landing_images {
-    position: relative;
-    height: auto;
-    overflow: inherit;
-  }
-.dash-remove {
-  padding-right: 5px;
-}
-</style>
- 
-</head>
-
-
-<body>
-  
-  <div class="wrapper">
-  
-    <div style="background-color:black" class="main_banner p-0 off__img img-fluid">
-      <div class="landing_images on__img">
-        <!-- <img src="images/main_banner.jpg" alt="Sabyasachi" class="off__img img-fluid"/> -->
-        <h3 class="main_title">This site is currently being renovated</h3>
-        <div class="contact_info">
-          <a href="#myModal" role="button" data-toggle="modal" class="px-5 py-5 text-right">Information</a> 
-        </div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+      integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7"
+      crossorigin="anonymous"
+    />
+    <style type="text/css">
+      * {
+        font-family: "Lato", serif;
+      }
+      @media (min-width: 320px) {
+        a img {
+          width: 50%;
+        }
+        @media (min-width: 801px) {
+          a img {
+            width: 20%;
+            height: 20%;
+          }
+        }
+      }
+    </style>
+    <title>Hello, world!</title>
+  </head>
+  <body class="bg-white text-dark">
+    <div id="mainpage" class="">
+      <section class="text-end h2 px-3 my-2">
+        <a
+          href="#"
+          id="informationButton"
+          class="
+            text-decoration-none
+            border border-dark
+            text-dark
+            px-3 px-md-5
+            py-1
+            my-5
+            fs-6 fs-md-1
+          "
+          >INFORMATION</a
+        >
+      </section>
+      <img src="images/bgimage.png" alt="Background Image" class="w-100" />
+      <div id="instafeed-container" class="w-75 mx-auto mt-5"></div>
+      <section class="my-5">
+        <section class="mx-auto text-center">
+          <a
+          href="https://www.linkedin.com/mwlite/company/perkant-tech"
+          id="informationButton"
+          class="
+            text-decoration-none
+            text-dark
+          "
+          >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            fill="currentColor"
+            class="bi bi-linkedin"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
+            />
+          </svg>
+          </a>
+          <a
+          href="https://mobile.twitter.com/perkantt?lang=en"
+          id="informationButton"
+          class="
+            text-decoration-none
+            text-dark
+          "
+          >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            fill="currentColor"
+            class="bi bi-twitter"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
+            />
+          </svg>
+          </a>
+          <a
+          href="https://www.instagram.com/perkanttechsolutions/?hl=en"
+          id="informationButton"
+          class="
+            text-decoration-none
+            text-dark
+          "
+          >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            fill="currentColor"
+            class="bi bi-instagram"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+            />
+          </svg>
+          </a>
+        </section>
+        <section class="text-center">
+          <h6>Find us on</h6>
+        </section>
+      </section>
+      <div class="bg-white mt-3">
+        <img src="images/logo.png" alt="logo" class="mx-auto d-block" />
       </div>
     </div>
-    <div class="info_title">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="site_logo">
-              <img src="images/logo.png" class="m-auto d-block img-fluid" />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="follow_us">
-        <h2>Find us on</h2>
-          <ul>
-            <li>
-              <a href="https://www.instagram.com/sabyasachiofficial/" target="_blank">
-                <img src="images/instagram.png" alt="instagram" title="instagram" class="img-fluid"/>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.facebook.com/sabyaofficial/" target="_blank">
-                <img src="images/facebook.png" alt="facebook" title="facebook" class="img-fluid"/>
-              </a>
-            </li>
-            <li>
-              <a href="https://twitter.com/sabyaofficial" target="_blank">
-                <img src="images/twitter.png" alt="twitter" title="twitter" class="img-fluid"/>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.youtube.com/channel/UCk_vQ510vdXqlccfgYG90uA" target="_blank">
-                <img src="images/youtube.png" alt="youtube" title="youtube" class="img-fluid"/>
-              </a>
-            </li>
-          </ul>
-      </div>
+
+    <div id="model" class="d-none">
+      <section class="text-end px-5 py-5">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          style="cursor: pointer"
+          id="closeButton"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-x-lg text-end"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z"
+          />
+        </svg>
+      </section>
+      <section class="w-75 mx-auto text-center my-auto">
+        <h2>Contact</h2>
+        Email: lokant.jain@perkanttech.com
+        <br />
+        Ph: .+91 8226 008 918
+        <br />
+        Add: 3rd Floor, Prestige Vijay Nagar, Scheme No 74C, Vijay Nagar, Indore
+        ,Madhya Pradesh 452010, India
+        <br />
+        (Monday - Saturday, 11am to 7pm IST)
+        <br />
+        Closed on Sundays and Public holiday
+      </section>
     </div>
-  
-  
-  <div class="modal pr-0" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog modal-full" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close" title="Close">
-            <span aria-hidden="true">&#10005;</span>
-          </button>
-        </div>
-        <div class="modal-body p-4" id="result" style="padding-bottom:0!important">
-            <div class="contact">
-            
-            <div class="wrapper">
-                <div class="main__head_title">
-                  <h1>Contact</h1>
-                  <span class="liner_divider"></span>
-                  <div class="blank_divider"></div>
-                  <div class="group_info_title">
-                    <h3>Email: <a href="mailto:publicrelations@sabyasachi.com">publicrelations@sabyasachi.com</a></h3>
-                    <h3 class="line_manager">Ph: +91<span class="dash-remove"></span>9830005953 / +91<span class="dash-remove"></span>9874981278 (Kolkata)  <span class="pipe_case">|</span>  +91<span class="dash-remove"></span>9810311155 / +91<span class="dash-remove"></span>9599539990 (Delhi) <span class="pipe_case">|</span>  +91<span class="dash-remove"></span>9082745249 / +91<span class="dash-remove"></span>9820162029 (Mumbai) <span class="pipe_case">|</span>  +91<span class="dash-remove"></span>8886430132 (Hyderabad)</h3>
-                    <h3 class="less__smaller">(Monday - Saturday, 11am to 7pm IST)</h3>
-                    <h3 class="less__smaller">Closed on Sundays and Public holidays</h3>
-                  </div>
-                </div>
-                
-                <div class="big_blank_divider"></div>
-                
-                <div class="main__head_title">
-                  <h1 class="more_one_px">Stores</h1>
-                  <span class="liner_divider"></span>
-                  <div class="blank_divider"></div>
-                  <div class="group_info_title">
-                    <p class="store__info w-80 m-auto">This is a comprehensive list of our flagship and tertiary stores from where our merchandise is currently retailed. In case you come across any <br class="br_none"/> other outlet which claims to retail our products, please feel free to get in touch with us to verify the authenticity of your proposed purchase.<br class="br_none"/>  You may send us an email on <a class="address" href="mailto:feedback@sabyasachi.com">feedback@sabyasachi.com</a> with your query and we will get back to you at the earliest.</p>
-                    <div class="small_blank_divider"></div>
-                    <h3 class="padding_less">Regards,</h3>
-                    <h3 class="pb-0">Team Sabyasachi</h3>
-                  </div>
-                </div>
-                
-                <div class="medium_blank_divider"></div>
-                
-                <div class="main__head_title lh28">
-                  <div class="group_info_title">
-                    <h3 class="main_c_title">INDIA</a></h3>
-                    <h3 class="main_s_title">Flagship Stores</h3>
-                    <h3 class="main_city_title">KOLKATA</h3>
-                    <h3 class="address">Sabyasachi <br />
-                    P- 545 Lake Road  <br />
-                    Kolkata - 700029 <br />
-                    Ph: <span class="tel__no">+91<span class="dash-remove"></span>9830005953 / +91<span class="dash-remove"></span>9874981278</span><br />
-                    Email: <a class="address" href="mailto:kolkataretail@sabyasachi.com ">kolkataretail@sabyasachi.com </a>  
-                  <!----	<a class="address" href="mailto:kolkataretail@sabyasachi.com ">kolkatabridal@sabyasachi.com </a> ----></h3>
-                  </div>
-                </div>
-                
-                <div class="blank_divider"></div>
-                
-                <div class="main__head_title lh28">
-                  <div class="group_info_title">
-                    <h3 class="main_city_title">NEW DELHI</a></h3>
-                    <h3 class="address">Sabyasachi Couture<br />
-                    Kutub Serai No 6-8,<br />
-                    One Style Mile,<br />
-                    Kalka Das Marg<br />
-                    Mehrauli, Near Qutub Minar<br />
-                    New Delhi - 110030,<br />
-                    Ph:<span class=""> +91<span class="dash-remove"></span>9810311155 / +91<span class="dash-remove"></span>9599539990</span> <br />
-                    Email: <a class="address" href="mailto:delhiretail@sabyasachi.com">delhiretail@sabyasachi.com</a></h3>
-                  </div>
-                </div>
-                
-                <div class="blank_divider"></div>
-                
-                <div class="main__head_title lh28">
-                  <div class="group_info_title">
-                    <h3 class="main_city_title">MUMBAI</a></h3>
-                    <h3 class="address">Sabyasachi Couture Pvt.Ltd<br />
-                    Ador House.6K Dubash marg <br />
-                    Opp: Lion Gate, Kalaghoda <br />
-                    Mumbai - 400001 <br />
-                    Ph: <span class="">+91<span class="dash-remove"></span>9082745249 / +91<span class="dash-remove"></span>9820162029</span> <br />
-                    Email: <a class="address" href="mailto:mumbairetail@sabyasachi.com">mumbairetail@sabyasachi.com</a></h3>
-                  </div>
-                </div>
-                <div class="blank_divider"></div>
-                
-                <div class="main__head_title lh28">
-                  <div class="group_info_title">
-                    <h3 class="main_city_title">HYDERABAD</a></h3>
-                    <h3 class="address">Sabyasachi Hyderabad<br />
-                    Plot NO. 14, Road No. 10 <br />
-                    Banjara Hills<br />
-                    Hyderabad - 500034 <br />
-                    Ph: +91<span class="dash-remove"></span>8886430132<br />
-                    Email: <a class="address" href="mailto:hyderabadretail@sabyasachi.com">hyderabadretail@sabyasachi.com</a></h3>
-                  </div>
-                </div>
-                
-                <div class="blank_divider"></div>
-                <div class="main__head_title">
-                  <h1 class="main_c_title">TERTIARY STORES</h1>
-                </div>
-                
-                <div class="main__head_title lh28">
-                  <div class="group_info_title">
-                    <h3 class="main_city_title">KOLKATA</a></h3>
-                    <h3 class="address">85 Lansdowne<br />
-                    85 B, Sarat Bose Road <br />
-                    Kolkata - 700026<br />
-                    Ph: +91<span class="dash-remove"></span>33<span class="dash-remove"></span>24862136<br />
-                    Email: <a class="address" href="mailto:85lansdowne@gmail.com">85lansdowne@gmail.com</a></h3>
-                  </div>
-                  
-                  <div class="tiny_blank_divider"></div>
-                  
-                  <div class="group_info_title">
-                    <h3 class="main_city_title">MUMBAI</a></h3>
-                    <h3 class="address">Aza: Altamount<br />
-                    21, Altamount Road<br />
-                    Mumbai-400023<br />
-                    Ph: +91<span class="dash-remove"></span>22<span class="dash-remove"></span>23530212, +91<span class="dash-remove"></span>22<span class="dash-remove"></span>23517616<br />
-                    Mobile:+91<span class="dash-remove"></span>9867451199<br />
-                    Email: <a class="address" href="mailto:altamount@azafashions.com">altamount@azafashions.com</a></h3>
-                    
-                    <div class="micro__spacer"></div>
-                    
-                    <h3 class="address">Aza: Juhu<br />
-                    Shishir,15-A Juhu Tara Road<br />
-                    Mumbai- 400049<br />
-                    Ph: +91<span class="dash-remove"></span>22<span class="dash-remove"></span>26610091, +91<span class="dash-remove"></span>22<span class="dash-remove"></span>26610092<br />
-                    Mobile:+91<span class="dash-remove"></span>9833951198<br />
-                    Email: <a class="address" href="mailto:juhu@azafashions.com">juhu@azafashions.com</a></h3>
-                    
-                    <div class="micro__spacer"></div>
-                    
-                    <h3 class="address">Aza: Bandra<br />
-                    Aza House, No. 24, Turner Road, Bandra West,<br />
-                    Mumbai - 400050<br />
-                    Ph: +91<span class="dash-remove"></span>9833281197<br />
-                    Email: <a class="address" href="mailto:contactus@azafashions.com">contactus@azafashions.com</a></h3>
-                    
-                    <div class="micro__spacer"></div>
-                    
-                    <h3 class="address">Ensemble <br />
-                    Great Western Building<br />
-                    130/132 1st Floor Shahid Singh Marg<br />
-                    Mumbai - 400023<br />
-                    Ph: +91<span class="dash-remove"></span>22<span class="dash-remove"></span>22845167/5118/3227, +91<span class="dash-remove"></span>22<span class="dash-remove"></span>22872882, +91<span class="dash-remove"></span>22<span class="dash-remove"></span>22843227.<br />
-                    Email: <a class="address" href="mailto:ensembleindia@gmail.com">ensembleindia@gmail.com</a></h3>
-                    
-                    <div class="micro__spacer"></div>
-                    
-                    <h3 class="address">Ensemble: Santacruz(Bandra)<br />
-                    Mi-Casa, Junction of St. Theresa Road,28th Road, Bandra (W),<br />
-                    Mumbai - 400050<br />
-                    Ph: +91<span class="dash-remove"></span>22<span class="dash-remove"></span>26420643/26420644<br />
-                    Email: <a class="address" href="mailto:bandra@ensembleindia.com">bandra@ensembleindia.com</a></h3>
-                  </div>
-                  
-                  <div class="tiny_blank_divider"></div>
-                  
-                  <div class="group_info_title">
-                    <h3 class="main_city_title">NEW DELHI</a></h3>
-                    <h3 class="address">Aza: South Ex<br />
-                    F-48 Eros,Ground Floor,<br />
-                    South Extension Part 1, New Delhi - 110049<br />
-                    Ph: +91<span class="dash-remove"></span>11<span class="dash-remove"></span>43237878<br />
-                    Mobile: +91<span class="dash-remove"></span>9310178433<br />
-                    Email: <a class="address" href="mailto:southex@azafashions.com">southex@azafashions.com</a></h3>
-                    
-                    <div class="micro__spacer"></div>
-                    
-                    <h3 class="address">Aza: Defence<br />
-                    D-21, Shiniwas Puri, Block D, Defence Colony,<br />
-                    New Delhi - 110024,<br />
-                    Ph: +91<span class="dash-remove"></span>9205737433<br />
-                    Email: <a class="address" href="mailto:contactus@azafashions.com">contactus@azafashions.com</a></h3>
-                    
-                    <div class="micro__spacer"></div>
-                    
-                    <h3 class="address">Ogaan India Pvt Ltd<br />
-                    H-2, HauzKhas Village<br />
-                    New Delhi - 110066<br />
-                    Phone: +91<span class="dash-remove"></span>11<span class="dash-remove"></span>26853849, +91<span class="dash-remove"></span>11<span class="dash-remove"></span>26967595, +91<span class="dash-remove"></span>11<span class="dash-remove"></span>26520205<br />
-                    Email: <a class="address" href="mailto:aashti.b@gmail.com">aashti.b@gmail.com</a> / <a class="address" href="mailto:shagun.khanna@ogaan.com">shagun.khanna@ogaan.com</a></h3>
-                    
-                    <div class="micro__spacer"></div>
-                    
-                    <h3 class="address">Ensemble Emporio<br />
-                    Plot No. 4, Shop No. 433-437, Third Floor, Emporio Mall,<br />
-                    Vasant Kunj Mall Area, Vasant Kunj Phase II,<br />
-                    New Delhi - 110070<br />
-                    Email: <a class="address" href="mailto:ensemble_newdelhi@yahoo.co.in">ensemble_newdelhi@yahoo.co.in</a> </h3>
-                  </div>
-                  
-                  <div class="tiny_blank_divider"></div>
-                  
-                  <div class="group_info_title">
-                    <h3 class="main_city_title">CHENNAI</a></h3>
-                    <h3 class="address">Evoluzione<br />
-                    30, Khader Nawaz Khan Road<br />
-                    Nungambakkam, Chennai - 600006<br />
-                    Ph: +91<span class="dash-remove"></span>44<span class="dash-remove"></span>28333627<br />
-                    Email: <a class="address" href="mailto:info@evoluzionestyle.com">info@evoluzionestyle.com</a> / <a class="address" href="mailto:shilpa@evoluzionestyle.com">shilpa@evoluzionestyle.com</a></h3>
-                  </div>
-                  
-                  <div class="tiny_blank_divider"></div>
-                  
-                  <div class="group_info_title">
-                    <h3 class="main_city_title">BENGALURU</a></h3>
-                    <h3 class="address">Evoluzione<br />
-                    No. 14, Vittal Mallya Road<br />
-                    Embassy classic, ground floor<br />
-                    Bengaluru - 560001<br /> 
-                    Ph: +91<span class="dash-remove"></span>80<span class="dash-remove"></span>41121088 / 89<br />
-                    Email: <a class="address" href="mailto:sunil@evoluzionestyle.com">sunil@evoluzionestyle.com</a></h3>
-                  </div>
-                  
-                </div>
-                
-                <div class="blank_divider"></div>
-                <div class="main__head_title">
-                  <h1 class="main_c_title">USA</h1>
-                </div>
-                
-                <div class="main__head_title lh28">
-                  <div class="group_info_title">
-                    <h3 class="address">
-                    Komal Anand<br />
-                    The Grand Trunk<br />
-                    558 Sycamore Rd,<br />
-                    Pleasanton CA 94566<br />
-                    Ph: 510-742-0999<br />
-                    <a class="address" href="http://www.thegrandtrunkus.com/" target="_blank">www.thegrandtrunkus.com</a></h3>
-                    
-                    <div class="micro__spacer"></div>
-                    
-                    <h3 class="address">Barkha Jayaswal<br />
-                    The Bollywood Closet Atlanta<br />
-                    10570 Highgate Manor CT<br />
-                    Duluth Georgia(GA) 30097<br />
-                    USA<br />
-                    Ph: 678-200-2725<br />
-                    <a class="address" href="https://thebollywoodclosetusa.com/" target="_blank">www.thebollywoodclosetusa.com</a></h3>
-                    
-                    <!--<div class="micro__spacer"></div>
-                    
-                    <h3 class="address">Hasham Karan (Babu)/ Kausar karan<br />
-                    Yasmin Boutique and Jewels<br />
-                    18105 Pioneer BLVD<br />
-                    Artesia, CA 90701<br />
-                    USA<br />
-                    Ph: 562-402-6131<br />
-                    Email: <a class="address" href="mailto:karan@gmail.com">karan@gmail.com</a> / <a class="address" href="mailto:7hkify@gmail.com">7hkify@gmail.com</a></h3>--->
-                  </div>
-                </div>
-                
-                <div class="blank_divider"></div>
-                <div class="main__head_title">
-                  <h1 class="main_c_title">LONDON</h1>
-                </div>
-                
-                <div class="main__head_title lh28">
-                  <div class="group_info_title">
-                    <h3 class="address">Aashni & Co.<br />
-                    125 Ledbury road, London W11 2AQ<br />
-                    Ph: +(44) 2079850155 / +(44) 7557289871<br />
-                    Email: <a class="address" href="mailto:info@aashniandco.com">info@aashniandco.com</a><br />
-                    <a class="address" href="http://www.aashniandco.com/" target="_blank">www.aashniandco.com</a></h3>
-                    
-                    <div class="micro__spacer"></div>
-                    
-                    <h3 class="address">Marni Kaur<br />
-                    Bibi London <br />
-                    Nags Head Lane, Brentwood,<br />
-                    Essex, UK<br />
-                    Ph: 44 (0) 7931 999111<br />
-                    Ph: 44 (0) 208 133 4666<br />
-                    Email: <a class="address" href="mailto:marni@bibilondon.com">marni@bibilondon.com</a></h3>
-                    
-                  </div>
-                </div>
-                
-                <div class="blank_divider"></div>
-                <div class="main__head_title">
-                  <h1 class="main_c_title">ONLINE</h1>
-                </div>
-                
-                <div class="group_info_title">
-                  <h3 class="address"><span class="custom_title" style="text-transform:capitalize;">CarmaOnline</span> <br />
-                  <a class="address" href="https://www.carmaonlineshop.com/" target="_blank">www.carmaonlineshop.com</a></h3>
-                </div>
 
-              </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="close__btn" data-dismiss="modal">&#10005;</button>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
+    <script type="text/javascript">
+      let isMobile = window.matchMedia(
+        "only screen and (max-width: 760px)"
+      ).matches;
+      let noOfFeed = isMobile ? 6 : 10;
+      var userFeed = new Instafeed({
+        get: "user",
+        target: "instafeed-container",
+        resolution: "low_resolution",
+        accessToken:
+          "IGQVJXUURITHFJZAWp4WDlfMlptdG8zdndUWnZAQT0pIRFhSQ29DUVg2RUl2WjAybEczM3ljN1BvU2RpdzhhQXE5TUlrZAkFPRHRCYUZABSG5VeEN5YndDWUVFM1hpY1AycjBPOHd5N3M1RmZA2NjJGVHVhMgZDZD",
+        limit: noOfFeed,
+      });
+      userFeed.run();
 
-</div>
-
-
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-
-<script type="text/javascript">
-  function setHeight() {
-    windowHeight = $(window).innerHeight();
-    var cheight =  windowHeight - 0;
-    $('.on__img').css('min-height', cheight);
-      //alert(cheight);
-  };
-  setHeight();
-  $(window).resize(function() {
-  setHeight();
-  });	
-</script>
-
-
-</body>
-</html><!-- WEBSITE DEVELOPED BY A PIXEL HOUSE (https://www.apixelhouse.com) -->
+      const closeButton = document.getElementById("closeButton");
+      const informationButton = document.getElementById("informationButton");
+      const modelDiv = document.getElementById("model");
+      const mainPageDiv = document.getElementById("mainpage");
+      function myFunction() {
+        modelDiv.classList.toggle("d-none");
+        mainPageDiv.classList.toggle("d-none");
+      }
+      closeButton.addEventListener("click", myFunction);
+      informationButton.addEventListener("click", myFunction);
+    </script>
+  </body>
+</html>
